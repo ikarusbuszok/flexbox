@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(31,56,85);
+    margin: 0;
+    padding:0;
+
+}
+main{
+    background-color: rgb(140, 150, 157);
+    padding: 20px;
+    margin: 20px auto;
+    color: rgb(31,56,85);
+    width: 80%;
+
+
+}
+nav{
+    display: block;
+  
+
+    
+}
+nav.li{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+}
+
+img{
+    justify-content: flex-end;
+    align-items: space-around;
+
+}
+
